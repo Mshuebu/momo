@@ -1,0 +1,54 @@
+.moma{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(129, 119, 119);
+    padding-top: 30px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin: 7px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 6px;
+    
+
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin: 7px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 6px;
+    margin-left: 10px;
+    background-color:rgb(26, 22, 22) ;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+input::placeholder{
+    color:  rgb(41, 33, 33);
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: green;
+    }
+    
+}
